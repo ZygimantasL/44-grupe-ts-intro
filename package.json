@@ -1,0 +1,17 @@
+{
+  "name": "44-grupe-ts-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts": "tsc --watch",
+    "dev": "nodemon ./dist",
+    "shop": "nodemon ./dist/Shop.js"
+  },
+  "author": "ZygimantasL",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
